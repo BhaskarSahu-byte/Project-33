@@ -35,7 +35,7 @@ function draw() {
 
 function spawnSnowflakes() {
     if(frameCount % 5 === 0) {
-    snowflakes.push(new Snowflake(random(width/2 - 680, width/2 + 680), 0, 10));
+    snowflakes.push(new Snowflake(random(width/2 - 680, width/2 + 680), 0, 25));
     snowflakes.lifetime = 15;
   };
 }
